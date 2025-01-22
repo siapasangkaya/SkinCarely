@@ -1,0 +1,201 @@
+body {
+    background-color: #fdf5f5;
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: #7d4f6a;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+
+.product-card {
+    background-color: #fdf5f5;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h5 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.product-card p {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.product-card .btn {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.article-card h6 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.footer a {
+    color: #666;
+    margin: 0 0.5rem;
+}
+
+.footer a:hover {
+    color: #000;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+
+.product-card,
+.article-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fdf5f5;
+}
+
+.product-card:hover,
+.article-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+#edukasi {
+    background-color: #fdf5f5; 
+    padding: 50px 20px; 
+    border-radius: 8px; 
+    margin: 30px auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#edukasi h2 {
+    font-size: 2.5rem; 
+    margin-bottom: 30px; 
+}
+
+#edukasi .card {
+    border: none;
+    border-radius: 10px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+#edukasi .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+#edukasi .card img {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+#edukasi .card-body {
+    padding: 20px; 
+}
+
+#edukasi .card-title {
+    font-size: 1.25rem; 
+    color: #333; 
+    margin-bottom: 15px; 
+}
+
+#edukasi .card-text {
+    font-size: 1rem; 
+    color: #666; 
+    margin-bottom: 15px;
+}
+
+#edukasi .btn {
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    color: #fff; 
+    font-size: 1rem; 
+    transition: background-color 0.3s ease; 
+}
+
+#edukasi .btn:hover {
+    background-color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    #edukasi {
+        padding: 30px 10px; 
+    }
+
+    #edukasi h2 {
+        font-size: 2rem; 
+    }
+
+    #edukasi .card-title {
+        font-size: 1.1rem; 
+    }
+
+    #edukasi .btn {
+        font-size: 0.9rem; 
+    }
+}
